@@ -10,7 +10,7 @@ require "csv"
 # :mls
 #   username: "something"
 #   password: "abcd1234"
-#   url: "secret url"
+#   url: "id"
 
 config = YAML.load_file("config.yml")
 password = config["mls"]["password"]
